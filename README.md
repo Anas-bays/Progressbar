@@ -13,8 +13,8 @@ with Bar('Progress:', fill='#', suffix='%(percent).1f%% Complete') as bar:
         bar.next()
 bar.finish()
 ```
- which will give you a dynamic output which will look like this:
-   ` Progress: |▋▋▋▋▋▋▋▋▋▋▋▋▋▋▋▋▋▋▋                                      | 60.0% complete ` 
+which will give you a dynamic output which will look like this:
+ `Progress: |▋▋▋▋▋▋▋▋▋                                      | 60.0% complete` 
 
 
 Enjoy!
